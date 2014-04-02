@@ -1,8 +1,6 @@
-# -*- coding: utf-8 -*-
-# <nbformat>2</nbformat>
-
-# <codecell>
-
+'''
+Create some basic functions for the main_glm_gbm.ipython
+'''
 import numpy as np
 from sklearn.metrics import *
 
