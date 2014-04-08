@@ -1,0 +1,4 @@
+Run processData.R to save training and testing sets into text files. This helps program run faster
+
+
+Run 00.main.R
