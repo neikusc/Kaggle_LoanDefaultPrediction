@@ -2,3 +2,6 @@ Run processData.R to save training and testing sets into text files. This helps 
 
 
 Run 00.main.R
+
+
+This program gives a score: 0.52107 which could land at rank 75th during the competition.
