@@ -18,6 +18,7 @@ length(idz)/nrow(dataTest)
 # GDF: fit the loss
 pred_loss <- fitter(data, dataTest, idz)
 
+# compare loss on the training set and predicted loss on test set
 hist(data$loss, col=rgb(1, 0, 0,0.5),main="Training Set", ylim=c(0,1500), breaks=101,
      xlab ="Loss", ylab ="Frequency")
 hist(pred_loss, col=rgb(0, 1, 0,0.5), main="Testing Set", ylim=c(0,1500), breaks=101, add=T)
